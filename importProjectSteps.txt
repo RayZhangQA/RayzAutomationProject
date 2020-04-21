@@ -1,0 +1,13 @@
+1. Create a Maven Project: Go to eclipse-workspace directory:
+	mvn archetype:generate -DgroupId=AutomationTest -DartifactId=RayzAutomationProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+2. Compatible with Eclipse: Go to the root directory of the new project:
+	mvn eclipse:eclipse
+
+3. Add Selenium Maven Dependencies to pom.xml
+	search "Selenium Maven Dependencies" online to find the webpage of "https://www.selenium.dev/maven/"
+	copy the depencency code and then paste to new project pom.xml in eclipse
+	
+4. Add TestNG Maven Dependencies to pom.xml
+
+5. 
