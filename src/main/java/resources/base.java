@@ -20,7 +20,7 @@ public class base {
 
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
-		String url = prop.getProperty("url");
+		String homeUrl = prop.getProperty("url");
 		
 		if (browserName.contentEquals("chrome")) {
 			//execute in chrome driver
